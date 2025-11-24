@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azka Hasan – Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+    
+    <header>
+        <div class="left-header" id="left-header">
+            <h1>Azka Hasan</h1>
+            <p id="moving-line">Data Scientist & ML | AI Engineer | IT Professional | CTF Enthusiast | UI & UX Designer</p>
+        </div>
+
+        <div class="right-header">
+            <a class="cv-btn" href="azka hasan cv.pdf" download>Download my CV</a>
+          
+            <a class="social-icons" href="https://linkedin.com/in/azka-hasan-64229029b" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a class="social-icons" href="https://github.com/AzkaHasan" target="_blank"><i class="fab fa-github"></i></a>
+            <a class="social-icons" href="https://mail.google.com/mail/?view=cm&fs=1&to=azkafhd@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>         
+        </div>
+    </header>
+
+
+    <main>
+        <!-- LEFT SIDEBAR MENU -->
+        <aside class="sidebar">
+             <ul id="menu">
+             <span id="indicator"></span>
+
+               <li onclick="showSection('intro', this)">Introduction</li>
+
+
+
+               <li onclick="showSection('about', this)" >About me</li>
+               <li onclick="showSection('service', this)">Services</li>
+               <li onclick="showSection('experience', this)">Experience</li>
+               <li onclick="showSection('skills', this)">Skills</li>
+               <li onclick="showSection('education', this)">Education</li>
+               <li onclick="showSection('Certifications', this)">Certificates</li>
+               <li onclick="showSection('projects', this)">Projects</li>
+               
+
+                      
+         </ul>
+        </aside>
+
+        <!-- IMAGE -->
+        <section class="profile-image full-img" id="profile-img-box">
+            <img src="image.jpg" alt="Azka Hasan">
+        </section>
+
+        <!-- CONTENT AREA -->
+        <section class="content">
+
+            <!-- INTRO -->
+            <div id="intro-line"></div>
+            
+            <div id="intro" class="section active">
+
+               <!-- Particle Container -->
+             <div class="particles"></div>
+
+              <h1 class="hero-text">Azka Hasan</h1>
+                
+               
+               <p><b class="neon-hover">Data Scientist <b class="neon">&</b>  ML | AI Engineer <b class="neon">|</b> IT Professional <b class="neon">|</b>  CTF Enthusiast <b class="neon">|</b> UI & UX Designer</b></p> 
+
+
+
+            </div>
+
+
+                       
+
+
+
+
+
+            <!-- ABOUT -->
+            <div id="about" class="section">
+                <h2 id="about-me-title" class="typewriter">About me</h2>
+                <p>Hello! I'm Azka Hasan, MIT-certified IT Professional with 9 years of diverse experience, including 4+ years specializing in Data Science, Machine Learning, and automation.<br><br> I design, develop, and deploy intelligent ML models and data-driven systems that solve real-world problems with precision and efficiency.<br><br>
+
+Proficient in Python, R, TensorFlow, scikit-learn, Pandas, and ICD-10-CM, with strong UI/UX capabilities for building clear, intuitive, and impactful data visualizations and product interfaces.<br><br>
+
+Beyond technical development, I am an experienced educator, mentor, and problem-solver, skilled at transforming complex technical concepts into actionable insights and accessible learning experiences.<br><br>
+
+Actively engaged in Capture The Flag (CTF) competitions, constantly sharpening my skills in cybersecurity, forensics, and problem-solving—using these challenges to elevate both my analytical thinking and technical depth.<br><br>
+
+Driven by innovation, clarity, and a passion for continuous learning, I aim to create solutions that are not only intelligent—but beautifully designed and user-centered.</p>
+                <!--a class="orange-btn">More About Me</a-->
+            </div>
+
+            <!-- SERVICE -->
+            <div id="service" class="section">
+                <h2 id="about-me-title" class="typewriter">My Services</h2>
+                <p>
+                   <b class="neon">•</b> Machine Learning Model Development<br><br>
+                   <b class="neon">•</b> Data Analytics & Visualization<br><br>
+                   <b class="neon">•</b> UI/UX Product Design<br><br>
+                   <b class="neon">•</b> Penetration Testing & CTF Support<br><br>
+                   <b class="neon">•</b> Cloud + Automation Solutions</p>
+            </div>
+
+            <!-- EXPERIENCE -->
+            <div id="experience" class="section">
+                <h2 id="about-me-title" class="typewriter">Experience</h2>
+                <p>
+                  •<b class="neon"> Data Analyst Consultant </b> Jan 2025 – Present Riyadh, Saudia Arabia-based Curriculum <br>(Remote Learning Projects)<br><br>
+                  •<b class="neon"> Python Developer </b> Aug 2022 – 2025 NodeBook Private Limited <br> (Freelance/Remote Karachi, Pakistan)<br><br>
+                  •<b class="neon">  UI/UX Designer </b> Mar 2020 – June 2024 Appverse Technologies <br> (Remote Lahore Pakistan)<br><br>
+                  •<b class="neon"> Lecturer – Application Software </b> Jan 2014 – Dec 2016 ISP University <br>( Multan Pakistan)<br><br>
+                  •<b class="neon"> Computer Science Teacher </b> Mar 2012 – Dec 2013 Nusrat-ul-Islam School <br>( Multan Pakistan)<br><br>
+                  •<b class="neon"> Networking Intern </b> Jun 2011 – Aug 2011 Wateen Networking <br> (Multan Pakistan).</p>
+            </div>
+
+            <!-- SKILLS -->
+            <div id="skills" class="section">
+                
+                <h2 id="about-me-title" class="typewriter">Skills</h2>
+                
+
+
+                 
+                   <p>
+                      <b class="neon">Programming & Tools</b><br>
+                      R (cleaning, wrangling, ggplot2, dplyr, tidyr), Python, Pandas, NumPy, Matplotlib, TensorFlow, Scikit-learn, OpenCV <br><br>
+                 
+
+                   
+                     <b class="neon">Machine Learning & Deep Learning</b><br>
+                     Regression, Classification, Neural Networks, CNN, ANN, NLP <br><br>
+                   
+
+                   
+                     <b class="neon">Data Tools & Platforms</b><br>
+                     Google Sheets API, Jupyter Notebook, Google Colab <br><br>
+                 
+
+                  
+                     <b class="neon">CTF Tools & Cyber Skills</b><br>
+                     Virtual Machines (VMs), Kali Linux, Nmap, Wireshark, PowerShell, Linux basics, enumeration tools, OSINT tools <br><br>
+                  
+
+                   
+                    <b class="neon">UI / UX Design</b><br>
+                    Figma, Adobe XD, basic frontend layout <br><br>
+                  
+
+
+                      <b class="neon">Soft Skills</b><br>
+                     Technical training, mentoring, team collaboration, problem-solving <br>
+                                     
+
+
+                 </p>
+
+
+
+
+
+
+
+            </div>
+   
+            <!-- education -->
+            <div id="education" class="section">
+                <h2 id="about-me-title" class="typewriter">Education</h2>
+                <p>
+                   <b class="neon">Cyber Security</b> <br>
+                   Training TryHackMe – SOC Level 1 (In Progress)<br><br>
+                   <b class="neon">Masters in Information Technology</b><br> (MIT) Bahauddin Zakariya University, Multan Pakistan
+                                                                                     (2010 – 2013)<br><br>
+                  <b class="neon">Bachelors in Computer Science</b><br> (BSC) Bahauddin Zakariya University, Multan Pakistan
+                                                                                      (2008 – 2010)
+
+
+
+                     </p>
+            </div>
+           
+
+
+                   
+            <!-- Certifications -->
+            <div id="Certifications" class="section">
+                <h2 id="about-me-title" class="typewriter">Certificates</h2>
+               
+
+                     <div class="certificate-gallery">
+
+                       <!-- Certificate 1 -->
+                       <div class="cert-item" onclick="openCert('yes')">
+                         <img src="yes.jpg" alt="Certificate 1">
+                          <p>AI vs Cybercrime</p>
+                        </div>
+                           
+
+
+                      
+
+                       <!-- Certificate 2 -->
+                       <div class="cert-item" onclick="openCert('python')">
+                         <img src="python.jpg" alt="Certificate 2">
+                          <p>Python with Machine Learning</p>
+                        </div>
+                           
+
+                       
+
+                       <!-- Certificate 3 -->
+                       <div class="cert-item" onclick="openCert('ui')">
+                         <img src="ui.jpg" alt="Certificate 3">
+                          <p>UI UX Designing</p>
+                        </div>
+                           
+
+                        <!-- Certificate 4 -->
+                       <div class="cert-item" onclick="openCert('cisco')">
+                         <img src="cisco.png" alt="Certificate 4">
+                          <p>Networking for Home and Small Business</p>
+                        </div>
+
+
+                        <!-- Certificate 5 -->
+                       <div class="cert-item" onclick="openCert('simsy')">
+                         <img src="simsy.jpg" alt="Certificate 5">
+                          <p>AI Powered Startups and Innovations</p>
+                        </div>
+
+                   
+
+
+                         <!-- Certificate 6 -->
+                       <div class="cert-item" onclick="openCert('azure')">
+                         <img src="azure.jpg" alt="Certificate 5">
+                          <p>Cloud Computing and Windows Azure</p>
+                        </div>
+
+
+
+                         <!-- Certificate 7 -->
+                       <div class="cert-item" onclick="openCert('red')">
+                         <img src="red.jpg" alt="Certificate 5">
+                          <p>Digital Assessment Development</p>
+                        </div>
+
+
+
+                       
+
+
+
+
+
+               </div>
+
+                   
+
+
+                     
+
+
+                <!-- MODAL POPUP -->
+              <div id="certModal" class="modal">
+               <span class="close" onclick="closeCert()">&times;</span>
+               <img id="fullCert" class="modal-content">
+               </div>
+
+
+
+
+
+
+            </div>
+
+               
+
+
+
+               
+
+                <!-- Projects -->
+            <div id="projects" class="section">
+                <h2 id="about-me-title" class="typewriter">Projects</h2>
+                <div class="tabs">
+                    <button class="tab active" onclick="openTab('ai')">AI Projects</button>
+                    <button class="tab" onclick="openTab('ml')">Machine Learning</button>
+                    <button class="tab" onclick="openTab('web')">Web Development</button>
+                    <button class="tab" onclick="openTab('flask')">Flask Projects</button>
+                    <button class="tab" onclick="openTab('colab')">Python / Colab</button>
+                    <button class="tab" onclick="openTab('icd')">Health – ICD-10</button>
+                    <button class="tab" onclick="openTab('analytics')">Data Analytics</button>
+                    <button class="tab" onclick="openTab('uiux')">UI / UX Designs</button>
+                    <button class="tab" onclick="openTab('mobile')">Mobile UI / UX</button>
+             </div>
+
+             <div class="tab-content-container">
+        <!-- KEEP ALL PROJECTS HERE (content you already saw) -->
+
+                        <!-- AI PROJECTS -->
+            <div class="tab-content active" id="ai">
+                <div class="project-grid">
+                        <div class="project-card">
+
+                        
+                        <h3>Facial Emotion & Reel Mood Detection</h3>
+                        <p>Deloped a deep learning solution to detect emotional patterns from selfies and short video
+                              reels. </p>
+                        
+                    </div>
+
+            </div>
+            </div>
+
+            <!-- MACHINE LEARNING -->
+            <div class="tab-content" id="ml">
+                <div class="project-grid">
+                    <div class="project-card">
+                        
+                        <h3>CO2 Data Analysis and Prediction</h3>
+                        <h3>Temperature Comparison of Two Companies</h3>
+                        <h3>Flower Species Classification using Logistic Regression</h3>
+                        <h3>Image Classification with Artificial Neural Networks (ANN)</h3>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <!-- WEB DEV -->
+            <div class="tab-content" id="web">
+                <div class="project-grid">
+                    <div class="project-card">
+                        
+                        <h3>Portfolio Website</h3>
+                        <p>Fully responsive neon-style portfolio.</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <!-- FLASK -->
+            <div class="tab-content" id="flask">
+                <div class="project-grid">
+                    <div class="project-card">
+                        
+                        <h3>Flask Login System</h3>
+                        <p>Secure authentication system with sessions & hashing.</p>
+                        
+                    </div>
+
+                    <div class="project-card">
+                        
+                        <h3>Flask Dashboard</h3>
+                        <p>Admin panel showing live analytics.</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <!-- COLAB -->
+            <div class="tab-content" id="colab">
+                <div class="project-grid">
+                    <div class="project-card">
+                          <h3>Python Data Cleaning</h3>
+                        <p>Pandas-based ETL workflow in Google Colab.</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <!-- ICD-10 -->
+            <div class="tab-content" id="icd">
+                <div class="project-grid">
+                    <div class="project-card">
+                        
+                        <h3>ICD-10 Classification System</h3>
+                        <p>Healthcare diagnosis classifier using ML + automation.</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <!-- ANALYTICS -->
+            <div class="tab-content" id="analytics">
+                <div class="project-grid">
+                    <div class="project-card">
+                        
+                        <h3>Sales Dashboard</h3>
+                        <p>Interactive dashboard with charts & KPIs.</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <!-- UI UX -->
+            <div class="tab-content" id="uiux">
+                <div class="project-grid">
+                    <div class="project-card">
+                        
+                        <h3>Website UI Design</h3>
+                        <p>Modern glowing UI designed in Figma.</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <!-- MOBILE UI UX -->
+            <div class="tab-content" id="mobile">
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>Mobile Gym App </h3>
+                        
+                        <h3>Notebook App</h3>
+                        <h3>Restaurant App</h3>
+                         <p>Clean mobile app UI/UX layout with neon accents.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+  
+
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
