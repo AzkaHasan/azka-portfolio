@@ -215,7 +215,7 @@ h2 {
 /* typing animation */
 @keyframes typing {
     from { width: 0; }
-    to { width: 20%; }
+    to { width: 100%; }
 }
 @keyframes blink {
     50% { border-color: transparent; }
@@ -613,6 +613,7 @@ body {
         width: 90%;
     }
 }
+
 
 
 
