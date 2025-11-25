@@ -516,6 +516,104 @@ body {
 .social-icons i:hover {
     color: #fff;
 }
+/* ============================================
+   MOBILE RESPONSIVE FIXES  (screens ≤ 768px)
+   ============================================ */
+@media (max-width: 768px) {
+
+    /* Fix header layout */
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .right-header {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    /* Make main layout vertical */
+    main {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    /* Sidebar becomes horizontal top menu */
+    .sidebar {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .sidebar ul {
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+        gap: 20px;
+        padding: 10px 0;
+    }
+
+    .sidebar li {
+        border-bottom: none;
+        font-size: 14px;
+        white-space: nowrap;
+    }
+
+    /* Hide vertical neon indicator on mobile */
+    #indicator {
+        display: none;
+    }
+
+    /* Profile image goes full width */
+    .profile-image {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .profile-image img {
+        width: 60%;
+    }
+
+    /* Content takes full width */
+    .content {
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .hero-text {
+        font-size: 28px;
+        margin-top: 20px;
+        height: auto;
+    }
+
+    /* Reduce text size under name */
+    #intro p {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0 10px;
+    }
+
+    /* Fix certificates grid */
+    .certificate-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Fix project cards */
+    .project-grid {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
+    /* Fix modal image on mobile */
+    .modal-content {
+        width: 90%;
+    }
+}
+
 
 
 
